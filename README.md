@@ -7,6 +7,15 @@ A checklist of miscellaneous tasks to do before launching a public website.
 * [ ] Make sure you allow indexing when you are ready to launch
 * [ ] Make sure you handle the www subdomain with DNS redirect
 
+## SEO
+* [ ] Pages have unique page titles (fewer than 70 characters, includes keywords).
+* [ ] Pages have unique meta descriptions (fewer than 156 characters, includes keywords).
+* [ ] Pages have keywords (fewer than 10, all words appear in page copy).
+* [ ] Alt tags have been added to every image
+* [ ] A dynamic XML sitemap has been created.
+* [ ] The XML sitemap has been submitted to search engines.
+* [ ] H1s used for page titles and only one H1 per page
+
 ## Google Analytics
 
 * [ ] Create [Google Analytics](http://www.google.com/analytics/) account
@@ -41,10 +50,10 @@ A checklist of miscellaneous tasks to do before launching a public website.
 ## Mobile Friendliness
 
 Test on various mobile devices:
-- [ ] scrolling is easy
-- [ ] nav bar works
-- [ ] hoverable things are tappable
-- [ ] charts/maps look ok
+- [ ] Scrolling is easy
+- [ ] Nav bar works
+- [ ] Hoverable things are tappable
+- [ ] Charts/maps look ok
 
 ## Printer Friendliness
 
@@ -57,39 +66,56 @@ Pick one:
 - [ ] Slice the resulting PNG into a multi-page PDF by copy/pasting page-sized chunks into the rich text editor of your choice, i.e. Microsoft Word or Google Docs. Export it to PDF and add it to the directory your images are stored in.
 - [ ] Add a link to the printer-friendly version to your website.
 
-## Page Speed
-- [ ] run the site through https://developers.google.com/speed/pagespeed/insights/
+## Performance
+- [ ] Run the site through https://developers.google.com/speed/pagespeed/insights/
+- [ ] Run the site through https://tools.pingdom.com/
+- [ ] Leverage browser Caching https://gtmetrix.com/leverage-browser-caching.html
+- [ ] Enable gZip compression https://gtmetrix.com/enable-gzip-compression.html
+- [ ] Minify CSS & JS
 
 ## Miscellaneous Polish
 - [ ] add favicons, apple touch icons (http://www.favicomatic.com/)
 - [ ] add 404 & 500 error pages
 
-## Load Testing
+## Accessibility
+- [ ] ARIA Landmark Roles specified
+- [ ] Semantic headings and structure used
+- [ ] Links are clearly recognisable and have :focus state
+- [ ] Images use appropriate ALT text
+- [ ] Associated label for all form controls
+- [ ] Colour contrast tested
 
-If your site relies on a database or server-side code, it should use caching and be load tested. If it's a static HTML or Jekyll site, you can skip this section.
 
-- [ ] set up page [caching](https://en.wikipedia.org/wiki/Web_cache)
-- [ ] write a script to load test all your pages. [Here's a good example from Illinois Sunshine](https://github.com/datamade/illinois-sunshine/blob/master/cache_builder.py)
+## Rendering
+- [ ] Displays & functions correctly in IE10
+- [ ] Displays & functions correctly in IE11
+- [ ] Displays & functions correctly in Microsoft Edge
+- [ ] Displays & functions correctly in Firefox (Windows)
+- [ ] Displays & functions correctly in Firefox (Mac)
+- [ ] Displays & functions correctly in Chrome (Windows)
+- [ ] Displays & functions correctly in Chrome (Mac)
+- [ ] Displays & functions correctly in Safari (Mac)
+- [ ] Displays & functions correctly in Safari (iOS – Mobile)
+- [ ] Displays & functions correctly in Safari (iOS – iPad)
+- [ ] Displays & functions correctly in Chrome (iOS – Mobile)
+- [ ] Displays & functions correctly in Chrome (iOS – iPad)
+- [ ] Displays & functions correctly in Chrome (Android – Mobile)
+- [ ] Displays & functions correctly in Chrome (Android – Tablet)
+- [ ] Displays & functions correctly on large resolutions
 
-## Testing
+## Functionality
+- [ ]
 
-- [ ] Plan for a day of bugfixing. This day should happen after you have added the last features you plan on adding.
+## Useful links to test
+- [ ] https://www.letsvalidate.com
 
-The Readme should have the following sections:
-
-- [ ] Overview
-- [ ] Setup
-- [ ] Running locally
-- [ ] Team
-- [ ] Errors / Bugs
-- [ ] Pull Requests
-- [ ] Copyright and License
-
-## Outreach
-
-- [ ] Write up press release
-- [ ] Identify who will be the primary person of contact and make their info prominent on the website and all PR
-- [ ] Identify relevant media contacts to email
-- [ ] Identify relevant social news sites (reddit, listservs, slack channels)
-- [ ] Divide & conquer - send out the media blitz!
 ```
+
+## License
+
+This list is licensed under [CC-BY-SA 4.0]()
+
+## Attribution
+
+https://github.com/datamade/site-launch-checklist (MIT)
+https://humaan.com/checklist/ (CC-BY-SA 4.0)
