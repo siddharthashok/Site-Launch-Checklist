@@ -2,17 +2,6 @@
 A checklist of miscellaneous tasks to do before launching a public website.
 
 ```
-## Framing / Call to Action
-- [ ] Make sure that the site has a clear call to action. This should not be 'hey look at this cool tool'. Rather, it should be a way for someone to engage in a meaningful way on the issue being presented.
-
-Some examples:
-
-* Join a mailing list (which means you need to create one)
-* Attend an event
-* Share on Facebook/Twitter
-* Donate to a particular organization
-* Create a Tumblr for people to share interesting findings (if it's a data access site)
-
 ## Web Search Indexing
 * [ ] If you have a staging site, tell the search engine robots not to index you with a robots.txt
 * [ ] Make sure you allow indexing when you are ready to launch
