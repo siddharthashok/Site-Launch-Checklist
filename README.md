@@ -1,13 +1,14 @@
 # Site Launch Checklist
 A checklist of miscellaneous tasks to do before launching a public website.
 
-```
-## Web Search Indexing
+## Checklist
+
+### Web Search Indexing
 * [ ] If you have a staging site, tell the search engine robots not to index you with a robots.txt
 * [ ] Make sure you allow indexing when you are ready to launch
 * [ ] Make sure you handle the www subdomain with DNS redirect
 
-## SEO
+### SEO
 * [ ] Pages have unique page titles (fewer than 70 characters, includes keywords).
 * [ ] Pages have unique meta descriptions (fewer than 156 characters, includes keywords).
 * [ ] Pages have keywords (fewer than 10, all words appear in page copy).
@@ -16,7 +17,7 @@ A checklist of miscellaneous tasks to do before launching a public website.
 * [ ] The XML sitemap has been submitted to search engines.
 * [ ] H1s used for page titles and only one H1 per page
 
-## Google Analytics
+### Google Analytics
 
 * [ ] Create [Google Analytics](http://www.google.com/analytics/) account
 * [ ] Hook up the GA Tracking Code (typically in our `analytics_lib.js` file)
@@ -25,7 +26,7 @@ A checklist of miscellaneous tasks to do before launching a public website.
 * [ ] Verify site in Webmaster Tools with DNS TXT record
 * [ ] Link Webmaster Tools to Google Analytics
 
-## Sharing & Rich Snippets
+### Sharing & Rich Snippets
 
 - [ ] Set up general meta tags
  * `<meta name=“description”>`
@@ -47,7 +48,7 @@ A checklist of miscellaneous tasks to do before launching a public website.
  * `<meta name=“twitter:image:src”>`
 - [ ] Create 2-5 meme images using [Canva](http://canva.com/) or a similar tool
 
-## Mobile Friendliness
+### Mobile Friendliness
 
 Test on various mobile devices:
 - [ ] Scrolling is easy
@@ -55,7 +56,7 @@ Test on various mobile devices:
 - [ ] Hoverable things are tappable
 - [ ] Charts/maps look ok
 
-## Printer Friendliness
+### Printer Friendliness
 
 Dynamic sizing, dark backgrounds, and interactivity don't play well with printers.
 
@@ -66,27 +67,26 @@ Pick one:
 - [ ] Slice the resulting PNG into a multi-page PDF by copy/pasting page-sized chunks into the rich text editor of your choice, i.e. Microsoft Word or Google Docs. Export it to PDF and add it to the directory your images are stored in.
 - [ ] Add a link to the printer-friendly version to your website.
 
-## Performance
+### Performance
 - [ ] Run the site through https://developers.google.com/speed/pagespeed/insights/
 - [ ] Run the site through https://tools.pingdom.com/
 - [ ] Leverage browser Caching https://gtmetrix.com/leverage-browser-caching.html
 - [ ] Enable gZip compression https://gtmetrix.com/enable-gzip-compression.html
 - [ ] Minify CSS & JS
 
-## Miscellaneous Polish
+### Miscellaneous Polish
 - [ ] add favicons, apple touch icons (http://www.favicomatic.com/)
 - [ ] add 404 & 500 error pages
 
-## Accessibility
+### Accessibility
 - [ ] ARIA Landmark Roles specified
 - [ ] Semantic headings and structure used
 - [ ] Links are clearly recognisable and have :focus state
 - [ ] Images use appropriate ALT text
 - [ ] Associated label for all form controls
-- [ ] Colour contrast tested
+- [ ] Color contrast tested
 
-
-## Rendering
+### Rendering
 - [ ] Displays & functions correctly in IE10
 - [ ] Displays & functions correctly in IE11
 - [ ] Displays & functions correctly in Microsoft Edge
@@ -103,19 +103,14 @@ Pick one:
 - [ ] Displays & functions correctly in Chrome (Android – Tablet)
 - [ ] Displays & functions correctly on large resolutions
 
-## Functionality
-- [ ]
-
-## Useful links to test
+### Useful links
 - [ ] https://www.letsvalidate.com
-
-```
 
 ## License
 
-This list is licensed under [CC-BY-SA 4.0]()
+This checklist is licensed under [CC-BY-SA 4.0]()
 
 ## Attribution
 
-https://github.com/datamade/site-launch-checklist (MIT)
-https://humaan.com/checklist/ (CC-BY-SA 4.0)
+- https://github.com/datamade/site-launch-checklist (MIT)
+- https://humaan.com/checklist/ (CC-BY-SA 4.0)
