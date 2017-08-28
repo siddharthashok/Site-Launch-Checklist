@@ -3,19 +3,24 @@ A checklist of miscellaneous tasks to do before launching a public website.
 
 ## Checklist
 
-### Web Search Indexing
-* [ ] If you have a staging site, tell the search engine robots not to index you with a robots.txt
-* [ ] Make sure you allow indexing when you are ready to launch
-* [ ] Make sure you handle the www subdomain with DNS redirect
+### General
+- [ ] Strict usage of domain with or without www
+- [ ] Correct language set in HTML tag
+- [ ] Charset is set
+- [ ] HTML is valid
+- [ ] 404-page is available
 
 ### SEO
+* [ ] Pages can be indexed
 * [ ] Pages have unique page titles (fewer than 70 characters, includes keywords).
 * [ ] Pages have unique meta descriptions (fewer than 156 characters, includes keywords).
 * [ ] Pages have keywords (fewer than 10, all words appear in page copy).
-* [ ] Alt tags have been added to every image
+* [ ] Images use the alt-attribute
+* [ ] Links use a title-attribute
 * [ ] A dynamic XML sitemap has been created.
 * [ ] The XML sitemap has been submitted to search engines.
 * [ ] H1s used for page titles and only one H1 per page
+* [ ] HTTPS is used on all pages
 
 ### Google Analytics
 
@@ -26,7 +31,7 @@ A checklist of miscellaneous tasks to do before launching a public website.
 * [ ] Verify site in Webmaster Tools with DNS TXT record
 * [ ] Link Webmaster Tools to Google Analytics
 
-### Sharing & Rich Snippets
+### Sharing
 
 - [ ] Set up general meta tags
  * `<meta name=“description”>`
@@ -48,7 +53,7 @@ A checklist of miscellaneous tasks to do before launching a public website.
  * `<meta name=“twitter:image:src”>`
 - [ ] Create 2-5 meme images using [Canva](http://canva.com/) or a similar tool
 
-### Mobile Friendliness
+### Mobile
 
 Test on various mobile devices:
 - [ ] Scrolling is easy
@@ -62,20 +67,13 @@ Test on various mobile devices:
 - [ ] Leverage browser Caching https://gtmetrix.com/leverage-browser-caching.html
 - [ ] Enable gZip compression https://gtmetrix.com/enable-gzip-compression.html
 - [ ] Minify CSS & JS
-
-### Miscellaneous Polish
-- [ ] add favicons, apple touch icons (http://www.favicomatic.com/)
-- [ ] add 404 & 500 error pages
-
-### Accessibility
-- [ ] ARIA Landmark Roles specified
-- [ ] Semantic headings and structure used
-- [ ] Links are clearly recognisable and have :focus state
-- [ ] Images use appropriate ALT text
-- [ ] Associated label for all form controls
-- [ ] Color contrast tested
+- [ ] CDN is used for static files
+- [ ] HTTP/2 is being used
+- [ ]
+- [ ]
 
 ### Rendering
+- [ ] Viewport Meta Tag is used correctly
 - [ ] Displays & functions correctly in IE10
 - [ ] Displays & functions correctly in IE11
 - [ ] Displays & functions correctly in Microsoft Edge
@@ -92,6 +90,26 @@ Test on various mobile devices:
 - [ ] Displays & functions correctly in Chrome (Android – Tablet)
 - [ ] Displays & functions correctly on large resolutions
 
+### Accessibility
+
+- [ ] Color Contrast is good (WCAG 2.0)
+- [ ] WAI-ARIA roles are used
+- [ ] Usage of accessible elements like nav, footer, aside
+- [ ] URLs are accessible
+- [ ] Keyboard accessibility is available
+- [ ] Correct input types are used
+
+### Security
+
+- [ ] HTTPS is used on all pages
+- [ ] There is no mixed content on the pages
+- [ ] External plugins and trackings get loaded via HTTPS
+- [ ] Robots.txt is in use
+- [ ] Cross-Site-Scripting is not possible
+- [ ] HSTS Header is set
+- [ ] Content-Security-Policy is set and only allows specific hosts and no inline scripts
+
+
 ### Useful links
 - [ ] https://www.letsvalidate.com
 
@@ -102,4 +120,5 @@ This checklist is licensed under [CC-BY-SA 4.0]()
 ## Attribution
 
 - https://github.com/datamade/site-launch-checklist (MIT)
+- https://github.com/drublic/checklist
 - https://humaan.com/checklist/ (CC-BY-SA 4.0)
