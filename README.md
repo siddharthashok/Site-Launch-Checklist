@@ -69,8 +69,6 @@ Test on various mobile devices:
 - [ ] Minify CSS & JS
 - [ ] CDN is used for static files
 - [ ] HTTP/2 is being used
-- [ ]
-- [ ]
 
 ### Rendering
 - [ ] Viewport Meta Tag is used correctly
